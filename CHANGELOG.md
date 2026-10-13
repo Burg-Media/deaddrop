@@ -58,7 +58,6 @@ Het bouwplan na de health check: dichtzetten, crypto afmaken, installeerbaar mak
 - End-to-end-test in Chrome (`tests/`).
 
 ### Opgeruimd
-- Geen wachtwoorden, privé-IP's of netwerkplannen meer in de repository.
 - Lege bestanden `actions/fetch_message.php` en `dbchanges.ttxt` weg.
 
 ### Migraties
