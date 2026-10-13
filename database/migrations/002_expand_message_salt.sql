@@ -1,0 +1,2 @@
+ALTER TABLE messages
+    MODIFY salt LONGTEXT NULL;

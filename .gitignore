@@ -1,0 +1,5 @@
+.env
+.DS_Store
+/intern/
+/storage/
+/tests/node_modules/

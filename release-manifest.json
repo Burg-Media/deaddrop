@@ -1,0 +1,327 @@
+{
+    "name": "deaddrop",
+    "version": "0.4.0",
+    "files": {
+        "actions/activate_device.php": {
+            "sha256": "1eb98c730b84b224c6636c090eef1bb61c48a531c7f935df7254b5dcd79da5bf"
+        },
+        "actions/add_channel_member.php": {
+            "sha256": "29b18733a8506f996ad60a842257cfc9fcf4548d317c3f3604a2a69550e966c7"
+        },
+        "actions/change_password.php": {
+            "sha256": "4c71b2be76761436b195d8cd200818e6a10b34cbe236ece53a20f4ad37d1df84"
+        },
+        "actions/create_channel.php": {
+            "sha256": "27d196f2f44bd9acdd89129790abcd07f79f27cacbc4d971d5ce2e69225e9a02"
+        },
+        "actions/create_device_activation.php": {
+            "sha256": "ee30bc18cc166bef84863cd55a274f48d50154754498e6db2c116c3c1226c023"
+        },
+        "actions/create_user.php": {
+            "sha256": "17b30d08028bc2a38212ee931ac42d0fdf493bc8fa7568cd1c5e8cbf01865c99"
+        },
+        "actions/delete_user.php": {
+            "sha256": "060d78e1e3cdfc87783228e97221ff36f497a47fcae30dda720acc6de1ae3fed"
+        },
+        "actions/destroy_message.php": {
+            "sha256": "f09dac340b992b69b5f594536008e02b2cbdffe864fba13ad1a93cf99173fe66"
+        },
+        "actions/failed_attempt.php": {
+            "sha256": "927ead1140e1847ca31e51ee094112d178a5ce9006057805cb65b857fe702a84"
+        },
+        "actions/fetch_public_key.php": {
+            "sha256": "66b6becacc5702bfc46a7843425f8dd7c63c154a7f9688b154577cdb0300ec62"
+        },
+        "actions/login_action.php": {
+            "sha256": "22f2380abeb1db8a39aa44ec338487258559c8d3027c0d0792545459485ce91d"
+        },
+        "actions/mark_opened.php": {
+            "sha256": "307ab780371e7621838f08cc6d25a5907007b3add683cad47b9785aa4f0b5ad6"
+        },
+        "actions/my_keys.php": {
+            "sha256": "74cd5ba54e26f415f653a9d13185e950a48a1b980a67c82edfe6bdf1ad33ed9d"
+        },
+        "actions/pin_key.php": {
+            "sha256": "3742f986464911c21b32c9daea3451be6cab6d0ca54689676876ae59f7d22103"
+        },
+        "actions/remove_channel_member.php": {
+            "sha256": "ac2fa1b5cbd50b0c2de67c8ad4132ec956491d956ff33c47420deb3ad41429dc"
+        },
+        "actions/revoke_device.php": {
+            "sha256": "a9f0b841c45b7ea3975df68e99620166009244b820bfa1a2b092a5e2fdb0cfec"
+        },
+        "actions/store_message.php": {
+            "sha256": "888697a8ee430d97e4ed9f28eeaffa2766127ddcf1bd7955196ba416c19a6d1a"
+        },
+        "actions/store_user_keys.php": {
+            "sha256": "e1edaf17880c4bbafae3f9a1b309ee378e20e4280ee496fe7991010960ab0b85"
+        },
+        "actions/update_channel.php": {
+            "sha256": "81793498c5203032dc05db0115c421b7f629e771174033cf99d4f11d2d145c30"
+        },
+        "actions/update_user_keys.php": {
+            "sha256": "fe2b542ef85b13553954ea8289290242cc9d23eeb1e67e44d0e1766f70be1cc4"
+        },
+        "config/config.php": {
+            "sha256": "803924ed296bf5b8964ade748ffd1234e20c1026b3747f39d7b6e20b7dc11cab"
+        },
+        "config/database.php": {
+            "sha256": "bc5b830cd1071baad89d524e1e2731e2a4237e3a39552299bbefceebda0452f7"
+        },
+        "cron/cleanup_expired.php": {
+            "sha256": "7c7b52d32e771c7fcfa1a3d4568884b1650c4cf809eed767856ae6fcedf31c2f"
+        },
+        "database/migrations/000_base_schema.sql": {
+            "sha256": "931d4d101f0d59a037e5dbeac53eaf7b7d34970f33c9fa48863ef9e419d77dc5"
+        },
+        "database/migrations/001_create_user_keys.sql": {
+            "sha256": "b37a2ee86185c211c377eccc5d283f9b2a221163bce04a2d573b916998f75ff7"
+        },
+        "database/migrations/002_expand_message_salt.sql": {
+            "sha256": "8fd71e63d395fb6ea7de1a89b76997f67df8bf3502e6b720806a8a38038e31f2"
+        },
+        "database/migrations/003_add_user_soft_delete.sql": {
+            "sha256": "e2d6181a39ddda95c4b65d0ec2da9fd64154f2adb4d4eac76763769817917547"
+        },
+        "database/migrations/004_create_trusted_devices.sql": {
+            "sha256": "323d4a8d849472b1aa3cdbaf2bf35755706fcece98ffb4447157a7ba77c18b27"
+        },
+        "database/migrations/005_add_superadmin_role.sql": {
+            "sha256": "fd7ae5fc2974d5219be2aee98e9c80982fcca6772dbc337efc4f31f6426b1c71"
+        },
+        "database/migrations/006_drop_message_sender.php": {
+            "sha256": "11d181eaacc2c0ea8a23d320b7908bfe8a98f8e4a24e70ca2c9cfbc706040e8c"
+        },
+        "database/migrations/007_messages_status_and_bucket.sql": {
+            "sha256": "3b33de3ed253547e29fc5a1006175ff7e76e32142a722439ddd0b826bedd41a6"
+        },
+        "database/migrations/008_create_auth_throttle.sql": {
+            "sha256": "81ceb204b5242d4469bf35b229e4f7565c8a9d9c8f2f7ab14ef749ace07dbfe1"
+        },
+        "database/migrations/009_user_keys_signing_and_kdf.sql": {
+            "sha256": "3a7ed132fb14d7d81102616a4f62545ae0c8744f04f007c0ad0a68f47003b14f"
+        },
+        "database/migrations/010_create_known_keys.sql": {
+            "sha256": "8fcb4d89ab7ebfc245ffba5bf3b052632728e22731249dca648dc2a986128254"
+        },
+        "includes/app.php": {
+            "sha256": "b75b3e9b48f2bf474ee2c11619d84fdbbea9834e92483c254231cc015b7ffc78"
+        },
+        "includes/assets.php": {
+            "sha256": "60cd73c9c593e246e19c71e9902bd1a2cd5da3dfa8d6c99969a3397df2dfdba5"
+        },
+        "includes/auth.php": {
+            "sha256": "3c34f67ce737d9b3f6478a1481a06b9563c0743455ba431d88355bf9d4159eb7"
+        },
+        "includes/bootstrap.php": {
+            "sha256": "9a73a7422f9af8192f176e61ead6a417a25c8ffc135b404e6a2cba8d76355519"
+        },
+        "includes/csrf.php": {
+            "sha256": "9ba6422daa7c5eacbc1b8bdf79f140f21d1659e255f87b4753f0d6d839810548"
+        },
+        "includes/device_trust.php": {
+            "sha256": "a13545922dd4ee0ad1e6cff123e1b16f9d812e685a46e03fee5ca4af5905b30a"
+        },
+        "includes/env.php": {
+            "sha256": "820f998dff8b02d7ba0df3590051d92680cde4ae61326af2cd7ea6800b1fa7ab"
+        },
+        "includes/footer.php": {
+            "sha256": "9398e45bcb93b9b8574be5f9660e4a2aaf6487c337084ab3245681fc58ca03da"
+        },
+        "includes/functions.php": {
+            "sha256": "08560a87ac7e9cb830203636bb4099446c7cc22cb464e25cc7c237610dc4a9c3"
+        },
+        "includes/header.php": {
+            "sha256": "b4e1e45b855714e9bfe57ece0b1fdfbbf7403df5b1f02554200b33276d083d10"
+        },
+        "includes/keys.php": {
+            "sha256": "ddd8302e53432f1e29c324bde8a79a5b7cdf52f2f1211e4cc8e35037de2e22aa"
+        },
+        "includes/manifest.php": {
+            "sha256": "2a789de77e55e199cebbd881a991d9d5e931a4c700a64532e3ee9e551de544c4"
+        },
+        "includes/messages.php": {
+            "sha256": "c17ced61fe04b43cb16fd369a03b7d4d40dbb209cf99637f75745f82274e93fc"
+        },
+        "includes/node_admin.php": {
+            "sha256": "f0521063dbb8479c7a0cec8d51130d2a20bd6b9be1ad98c534792d3ce0a3c0e7"
+        },
+        "includes/security_headers.php": {
+            "sha256": "086abb0d13ce403621840392e90af894bd0e3c8da8697209d8cb5b9e60a6c435"
+        },
+        "includes/session.php": {
+            "sha256": "735c9ced385f7dcaaa3084290a929109671346f523179d1ff963fa210a20660c"
+        },
+        "includes/setup_error.php": {
+            "sha256": "f7ff1b109beaa13a6940db3944462aeb9f88c0986270605f36fa550095a06b78"
+        },
+        "includes/throttle.php": {
+            "sha256": "42c377dc46d3c3e1c9e5c58b0922560a1e41dda5af2ddc99241e2246d42c7bc2"
+        },
+        "public/actions/activate_device.php": {
+            "sha256": "2b7f48a8e568bac0f183b724a214cdc6ed14cd5ddb1a71fb6805b35736fa697a"
+        },
+        "public/actions/add_channel_member.php": {
+            "sha256": "c3fe190ac29f0d87728783512480162c386fa25c9b1ec4a31369ae2ea65e2144"
+        },
+        "public/actions/change_password.php": {
+            "sha256": "c2ecc8acb0b2c27369d2cfb5e0217903720c529eb318c1b96af99ff2b5ccb955"
+        },
+        "public/actions/create_channel.php": {
+            "sha256": "cf1d1ae43195f4d6313b2aeb301e838e8007a81002fc10de26938195a60c6bdd"
+        },
+        "public/actions/create_device_activation.php": {
+            "sha256": "ebc2be87c814f50be1875870ef49b92df6ea22fa73ab00709360517bff005fd2"
+        },
+        "public/actions/create_user.php": {
+            "sha256": "05022464f1108e9c2813688f1987a1da28edff83bed8a4df846dcd60014eeb4c"
+        },
+        "public/actions/delete_user.php": {
+            "sha256": "e373237136903fca738a54bbd8caae5caa08c874d63936b9792953c47ecfe25d"
+        },
+        "public/actions/destroy_message.php": {
+            "sha256": "bfc36bb9ffbecf4a31562839dc01edd2e2c199b77733d7346c71d5b826c3bf3d"
+        },
+        "public/actions/failed_attempt.php": {
+            "sha256": "700af66454eadee791f1245f9cfffd888378ce854c57923bf54aa380d914448d"
+        },
+        "public/actions/fetch_public_key.php": {
+            "sha256": "0c01deca3a6d36d21915b125c8060eaef62ffe1e02a3f630dcf08d45ccd7d5d1"
+        },
+        "public/actions/login_action.php": {
+            "sha256": "b0d5983f7aa24b9f236716a61ebdbfd687c1db4d078497febd4baf999de4c413"
+        },
+        "public/actions/mark_opened.php": {
+            "sha256": "36c8a345547d720595481c1218ce5e2813916ab3da4aa749f43e988dfd6f0f26"
+        },
+        "public/actions/my_keys.php": {
+            "sha256": "af0c8ab9339297e4773d5076bc589c9d37186eff4663f593c160ca1f6bc53c0b"
+        },
+        "public/actions/pin_key.php": {
+            "sha256": "af658e43fbbef9e1a84b76f08a4793bbf475c8535717c9bf7596da0b818e297e"
+        },
+        "public/actions/remove_channel_member.php": {
+            "sha256": "b8facfe5f414e0c117f6a249fe48ef2202c2a55993f9fd5de2dd8582e448b3f5"
+        },
+        "public/actions/revoke_device.php": {
+            "sha256": "0f36c16f0e3cbcca0c7416f9750345e58812dc819848e04860620d10318e9005"
+        },
+        "public/actions/store_message.php": {
+            "sha256": "79f70374dbbbe22a962f70412958f8e2b222ae2074681e8d0efab551a3e08881"
+        },
+        "public/actions/store_user_keys.php": {
+            "sha256": "28a06a1f553f576b4a0c30ebccbc90fba47087ce65566feefbfcaa72049bf710"
+        },
+        "public/actions/update_channel.php": {
+            "sha256": "c04f14c297e44bea44782964e47fa3d3a57a2c58c4f7b0aef925a7ea0ca1aa6f"
+        },
+        "public/actions/update_user_keys.php": {
+            "sha256": "66e928e77d7d17fe8c3e3e806c1b2480c497db1a5ef2d0285f905921447bc52f"
+        },
+        "public/activate.php": {
+            "sha256": "b2b343d00b373221a52d620e4aba0ac5ab82c8da6223d8d04f57d1d780e8501c"
+        },
+        "public/admin_channels.php": {
+            "sha256": "07c960654892bf50cbedce8c5d11f08fbc4fc7fdcf359ef26b6f8104831412c3"
+        },
+        "public/admin_devices.php": {
+            "sha256": "80d8006eaf50bd9af4b6a4d0c9fcf98c91d460134ef4c7552451b7b568cf4ced"
+        },
+        "public/admin_users.php": {
+            "sha256": "212c7a1e1f8728ad7ec9e7c2f3bb4e968fec49d3e6903687b40fe24fb549c86b"
+        },
+        "public/assets/css/style.css": {
+            "sha256": "6ba858c34281709dda325d00ed37357c022607d4926c3171f62ef83eaac7bbf0",
+            "sri": "sha384-9quRk6BGUShuPT8Od0H9rBwUaqjRJLZggG8G1qg5k/gMx2sMGuUGfuE+zGFHCIlu"
+        },
+        "public/assets/js/create-message.js": {
+            "sha256": "2334dcd93d4627e7625e5df25dcf270dbeb9fcf9f3f962ca1fb868fc67357d29",
+            "sri": "sha384-MiEupilDLByrY2/IIeo6S+Yu100S9+ORXx1Uvy7qCNtLQqwDKbyUnA2KodjE9foT"
+        },
+        "public/assets/js/crypto.js": {
+            "sha256": "8a72cbc22ea3b2ae4339e2bc63d380d7997bbdc7549fec32c12bd91443459b78",
+            "sri": "sha384-XZlv7MGmcP99YivTIQ45aN0woymtkAQPTnmvSrpJS4E8hr8xD99FenQtREbnxnkJ"
+        },
+        "public/assets/js/key-setup.js": {
+            "sha256": "512082170d810f6065e9ab49c3f11ded67f4854f59b26ec9cddbfdf745681271",
+            "sri": "sha384-VgXUPcZkhZVGPzeNc/RGtUDOuFxpMmXYS/cvs6foLCTmNGC+8TYZLnF13Ybnvsap"
+        },
+        "public/assets/js/keys.js": {
+            "sha256": "55e33adbe308379a73a071726157ce793a07fc7060566cba171214222ab7ead2",
+            "sri": "sha384-+6xeKoepp+GUWZaOZczrrLX+7wkTi3z3HoZ/riZiHj2EYZTKg0BadJhuLvXDpn32"
+        },
+        "public/assets/js/open-message.js": {
+            "sha256": "58eda0ea49ba6cb4141e480e717db0defdb00dcee56b365b666c1e515d8f394c",
+            "sri": "sha384-CH/fRWmgWBCwhJVi3X9RzmuoU6rwtoJiz8VorwPCV11No+HU/ZNyg57SqMvVJjdW"
+        },
+        "public/assets/js/profile.js": {
+            "sha256": "ff85950a6d247d4ff81eca256a0769c9c129b061248f1a43d1b8cebfd66485c5",
+            "sri": "sha384-hcMPvmuo2fQpcBJohxsOtOgc+AgUn9tPLdAd82lX2oEQN2H0CD0COuirv0yOac/r"
+        },
+        "public/assets/js/terminal-dashboard.js": {
+            "sha256": "732e7f205c8916a4e1d5d919b0efa6d7d1c08171d5c22a62f05270997c311fee",
+            "sri": "sha384-/GqUrRcaHD3igKSdl5G0IAsTiP2oFc190hzCqMTmV9IesVqoB7rxOFOfp80CYSZ1"
+        },
+        "public/assets/js/ui.js": {
+            "sha256": "1913228236ebeeb1b461ce58bf8b49bf4e6b35f9ac65c715d8faf4c886b84c44",
+            "sri": "sha384-NI2QIX387LV6hUVLzOAl2t3eNq3PbxQh09MafazQpRKS78D7gE68sPGeApLgaIVi"
+        },
+        "public/dashboard.php": {
+            "sha256": "34cc6bcd53d9c71f3dade23220c6450fe17ab0b33d76670d494c795f4c829ce5"
+        },
+        "public/deaddrop.php": {
+            "sha256": "37edbfc91044bc7ef07574c70d78f6ff5da73564662a1e6772444a93a1899798"
+        },
+        "public/index.php": {
+            "sha256": "d0808b5a2f16080cb8cb950ffda78462284f0f250e32074a23899e4d78147c6b"
+        },
+        "public/key_setup.php": {
+            "sha256": "c8c1f7bc2c8f7697d136c7eb94e6371cecdba2256dde433e09caf7819ee334d2"
+        },
+        "public/login.php": {
+            "sha256": "69c12ad63c7cc5c2c5e1da76dad217a2d113eaef01bf94b86a4fd30c1b588870"
+        },
+        "public/logout.php": {
+            "sha256": "3fe663aae6276f6ae2cd4182bacf1cd05771ec158cac0677a48c92d3efcda16a"
+        },
+        "public/message_create.php": {
+            "sha256": "8d405536686cd15017b531c02e3b72db0e98de2c79e7cdbaf4d850a9930173a7"
+        },
+        "public/message_created.php": {
+            "sha256": "b2b3798c32f0b152518da16c031133f604325a82f7486b3bd99b5d9d52c102ba"
+        },
+        "public/message_open.php": {
+            "sha256": "0ea63815009ca44ab3c25b1897efead243daeb8723bc3595e46b3cb8e8690911"
+        },
+        "public/node_admin.php": {
+            "sha256": "02acc0f18a291dcf253f6afaeaf19e08ea99f01e97979bf0162ffc95725b58d0"
+        },
+        "public/node_identity.php": {
+            "sha256": "11e6c378da86b4bc4e87b328ab7d4dfcec82510649a61509cafdfe8b59f73322"
+        },
+        "public/profile.php": {
+            "sha256": "45bcd214c91586e0e3325364b51bdf591fe6f20277b11d49d0739301e5f9ae97"
+        },
+        "public/terminal.php": {
+            "sha256": "3b7ba8dfd3b737a6f043f11183865f43779b24e7bd3e177ac05b10fa5cfcb3bd"
+        },
+        "public/verify.php": {
+            "sha256": "f8885b4eadcf8f82814c497740f4b604111518ee5dc9a5e91db779d3add49c59"
+        },
+        "tools/build_manifest.php": {
+            "sha256": "7bd4124555d0e0425557bf1f1eb11631c531ccc335bbacdcb9b1e3cfce43f014"
+        },
+        "tools/create_user.php": {
+            "sha256": "ffe5454feee56f97fa4a5de81b404936a53d42a7463ff740eec67c387ef302b1"
+        },
+        "tools/generate_app_key.php": {
+            "sha256": "ed51e0b46691ba81c778643370d2f68819790a73eb5285df35234cca2c3f8ead"
+        },
+        "tools/hash_node_action_key.php": {
+            "sha256": "e0cc8ce086f5aad592c244fa9ab2e0bb22e696bc2f58d0524b6b8fb1d1414ae3"
+        },
+        "tools/migrate.php": {
+            "sha256": "2e6687cfc0597a54efd0ff69a57932d25d3f460447a28550e1080ab7ccd8e6cd"
+        }
+    }
+}
